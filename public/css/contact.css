@@ -1,0 +1,154 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    background-color:lightblue;
+   
+    font-size: 18px;
+}
+@media screen and (max-width:700px){}
+
+.navbar {
+
+background-color: #af4d98; 
+display: flex;
+justify-content: center;
+ 
+margin-top: 2%;
+}
+
+.navbar a {
+
+    font-size: 1.8vw;
+    
+   color: white;
+    display:flex;
+    padding: 2% 2% ;
+    
+    
+    justify-content:center;
+    text-decoration: none;
+   
+}
+
+.navbar a:hover {
+
+
+    
+    background-color: pink;
+    color: white;
+}
+
+
+.hr
+
+{
+
+margin-left: 35%;
+margin-right: 35%;
+
+}
+
+
+
+.logopic {
+
+    width: 15%;
+    height: 20%;
+    margin-left: 42%;
+    margin-top: 2%;  
+    
+}
+
+
+p{
+
+text-align: center;
+font-size: 1.5vw;
+margin-left: 10%;
+margin-right: 10%;
+
+word-spacing: 2px;
+
+ }
+
+
+ .text
+
+{
+text-align: center;
+font-size: 2.2vw;
+font-family: 'Lucida Sans', 'Lucida Sans Regular';
+}
+
+
+ .paragraph
+
+
+ {
+font-size: 1.5vw;
+text-align: center;
+margin-bottom: 7%;
+ }
+
+
+ .footer {
+    position: fixed;
+    background-color:#af4d98;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    margin-bottom: 0%;
+    text-align: center;
+   
+   
+
+    } 
+
+ .facebook{
+
+    padding: 0%;
+    width: 4%;
+    text-decoration: none;
+    margin-top: 1%;
+    
+     }
+    
+     .facebook:hover{
+    
+        opacity: 0.5;
+     }
+    
+    
+    
+    
+     .instagram{
+    
+        padding: 0%;
+        width: 4%;
+        margin-top: 1%;
+        text-decoration: none;
+        
+         }
+        
+         .instagram:hover{
+        
+            opacity: 0.5;
+         }
+        
+        
+         
+    
+         .email{
+    
+            padding: 0%;
+            width: 4%;
+            margin-top: 1%;
+            text-decoration: none;
+            
+             }
+            
+             .email:hover{
+            
+                opacity: 0.5;
+             }

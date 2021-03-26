@@ -1,0 +1,199 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    background-color:lightblue;
+    font-size: 18px;
+}
+@media screen and (max-width:400px){}
+@media screen and (max-width:550px){}
+@media screen and (max-width:750px){}
+@media screen and (max-width:1600px){}
+
+.navbar {
+
+background-color: #af4d98; 
+display: flex;
+justify-content: center;
+margin-top: 2%;
+}
+
+.navbar a {
+
+    font-size: 1.8vw;
+    
+   color: white;
+    display:flex;
+    padding: 2% 2% ;
+    
+    
+    justify-content:center;
+    text-decoration: none;
+   
+}
+
+.navbar a:hover {
+
+
+    
+    background-color: pink;
+    color: white;
+}
+
+
+.hr
+
+{
+
+margin-left: 35%;
+margin-right: 35%;
+
+}
+
+
+.logopic {
+
+    width: 15%;
+    height: 20%;
+    margin-left: 42%;
+    margin-top: 2%;
+
+   
+    
+}
+
+
+/* p{
+
+text-align: center;
+font-size: 1.5vw;
+margin-left: 10%;
+margin-right: 10%;
+word-spacing: 2px;
+ } */
+ 
+ .footer {
+    position: fixed;
+    background-color:#af4d98;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    margin-bottom: 0%;
+    text-align: center;
+   
+   
+
+    } 
+
+ .facebook{
+
+    padding: 0%;
+    width: 4%;
+    text-decoration: none;
+    margin-top: 1%;
+    
+     }
+    
+     .facebook:hover{
+    
+        opacity: 0.5;
+     }
+    
+    
+    
+    
+     .instagram{
+    
+        padding: 0%;
+        width: 4%;
+        margin-top: 1%;
+        text-decoration: none;
+        
+         }
+        
+         .instagram:hover{
+        
+            opacity: 0.5;
+         }
+        
+        
+         
+    
+         .email{
+    
+            padding: 0%;
+            width: 4%;
+            margin-top: 1%;
+            text-decoration: none;
+            
+             }
+            
+             .email:hover{
+            
+                opacity: 0.5;
+             }
+            
+
+             h1{
+                text-align: center;
+                color:white;
+                font-size: 40px;
+            }
+         
+
+           * {
+            box-sizing: border-box;
+          }
+          
+          
+          .row {
+         
+            margin-bottom: 5%;
+            text-align: center;
+           
+          }
+          
+          /* Add padding BETWEEN each column */
+          .row,
+          .row > .column {
+            padding: 8px;
+          }
+          
+          /* Create four equal columns that floats next to each other */
+          .column {
+            width: 25%;
+            /* background-color: red; */
+            display: inline-block;
+            margin: 0 auto;
+           
+            
+          }
+          
+          /* Clear floats after rows */ 
+          .row:after {
+            content: "";
+            display: table;
+            clear: both;
+          }
+          
+          /* Content */
+          .content {
+            background-color: white;
+            padding: 10px;
+            text-align: center;
+            
+          }
+          
+          /* Responsive layout - makes a two column-layout instead of four columns */
+        @media screen and (max-width: 900px) {
+            .column {
+              width: 50%;
+            }
+          } 
+          
+          /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+         @media screen and (max-width: 600px) {
+            .column {
+              width: 100%;
+            }
+          }  
